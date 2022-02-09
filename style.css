@@ -1,0 +1,400 @@
+/* ==============================================
+                Common Css
+=================================================*/
+body{
+    color: #686666;
+    font-size: 16px;
+    line-height: 1.5em;
+}
+
+
+/* ==============================================
+            banner css 
+=================================================*/
+nav.navbar.navbar-expand-lg.navbar-light.bg-transparent.sticky-top {
+    backdrop-filter: blur(8px);
+    background-color: rgba(4, 96, 158, 0) !important;
+    height: 80px;
+}
+
+.navbar-brand img{
+    width: 100px;
+    height: 80px;
+}
+
+article.container-fluid.p-0.background-color {
+   background-color: none;
+}
+
+.container-fluid.inner-ariticle {
+    background-image: url(./img/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+header.container.banner-title {
+    display: flex;
+    justify-content: unset;
+    align-items: flex-end !important;
+    height: 60%;
+}
+
+a.nav-link.text-white.active:active {
+    background: aqua !important;
+}
+
+a.nav-link.text-white:active {
+    background: aqua !important;
+}
+/* ==============================================
+            About US css 
+=================================================*/
+
+.col-sm-12.col-md-6 {
+    padding: 15px;
+    display: flex;
+    
+    justify-content: space-around;
+}
+
+.about.parsone-img {
+    width: 500px;
+    height: 700px;
+    background: #0dcaf0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    flex-wrap: wrap;
+}
+
+.about.parsone-img img {
+    width: 100%;
+}
+
+h1.text-info.text-bold {
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+div.title-bottom-border.text-info.bg-info {
+    width: 220px;
+    height: 5px;
+    border-radius: 20px;
+}
+
+p.about_text {
+    line-height: 1.6em;
+    text-align: justify;
+    color: #5a5a5a;
+}
+
+
+/* ==============================================
+            testymonial css 
+=================================================*/
+
+
+.container-fluid.bg-light.raduis {
+    background-color: rgb(155, 154, 154);
+}
+
+h2.text-bold {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 15px;
+    font-weight: 800;
+    font-size: 40px;
+    color: #494949;
+}
+
+
+i.bg-info.text-white.p-2.fas.fa-edit {
+    border-radius: 10px;
+    font-size: 25px;
+    width: 50px;
+    height: 50px;
+    font-weight: 500;
+    border: 2px solid white;
+    padding: 9px 11px !important;
+}
+
+i.bg-info.text-white.p-2.fas.fa-crop {
+    border-radius: 10px;
+    font-size: 25px;
+    width: 50px;
+    height: 50px;
+    font-weight: 600;
+    border: 2px solid white;
+    padding: 11px 11px !important;
+}
+
+i.bg-info.text-white.p-2.fas.fa-bolt {
+    border-radius: 10px;
+    font-size: 25px;
+    width: 50px;
+    height: 50px;
+    font-weight: 600;
+    border: 2px solid white;
+    padding: 12px 12px !important;
+}
+
+i.bg-info.text-white.p-2.fas.fa-coffee {
+    border-radius: 10px;
+    font-size: 25px;
+    width: 50px;
+    height: 50px;
+    font-weight: 600;
+    border: 2px solid white;
+    padding: 12px 5px !important;
+}
+
+p.text-bold {
+    font-size: 18px;
+    font-weight: 600;
+    color: #494949;
+}
+
+
+/* ==============================================
+           Services css 
+=================================================*/
+
+
+h2.service_catagory {
+    margin: 15px 0px 5px 0px;
+    /* color: #494949; */
+}
+
+.border_bottom_style {
+    width: 100px;
+    height: 3px;
+    margin: 7px 0px 20px 0px;
+    background: #747474;
+    border-radius: 10px;
+}
+
+/* .extra-effect {
+    border: 1px solid #747474;
+    padding: 10px 0px 0px 10px;
+    border-radius: 10px;
+} */
+
+a i.bg-info.text-white.p-2.fas.fa-cogs {
+    border-radius: 10px;
+    font-size: 24px;
+    width: 50px;
+    height: 50px;
+    font-weight: 600;
+    padding: 13px 12px !important;
+}
+
+a i.bg-info.text-white.p-2.far.fa-save {
+    border-radius: 10px;
+    font-size: 24px;
+    width: 50px;
+    height: 50px;
+    font-weight: 600;
+    padding: 13px 15px !important;
+}
+
+a i.bg-info.text-white.p-2.far.fa-heart {
+    border-radius: 10px;
+    font-size: 24px;
+    width: 50px;
+    height: 50px;
+    font-weight: 600;
+    padding: 13px 12px !important;
+}
+
+a i.bg-info.text-white.p-2.far.fa-hourglass {
+    border-radius: 10px;
+    font-size: 24px;
+    width: 50px;
+    height: 50px;
+    font-weight: 600;
+    padding: 13px 16px !important;
+}
+
+a i.bg-info.text-white.p-2.fab.fa-bootstrap {
+    border-radius: 10px;
+    font-size: 24px;
+    width: 50px;
+    height: 50px;
+    font-weight: 600;
+    padding: 13px 12px !important;
+}
+
+
+/* ==============================================
+           works css 
+=================================================*/
+
+ul li a {
+    text-decoration: none;
+    color: #504f4f;
+    font-size: 16px;
+    padding: 5px 10px;
+    flex-wrap: wrap;
+}
+
+.portfolio-image a img {
+    width: 250px;
+    box-shadow: 2px 2px 5px #9b9999;
+    border: none;
+    border-radius: 10px;
+}
+
+
+/* ==============================================
+          Clients css 
+=================================================*/
+
+/* testimonial-section start */
+
+.testimonial-section {
+    background-image: url(./img/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  /* background-color: rgba(0, 0, 0, 0.801); */
+  padding: 10px 0px;
+  min-height: 60vh;
+}
+
+.testi-img .img-box{
+  max-width: 360px;
+  margin: auto;
+  text-align: center;
+  position: relative;
+}
+
+.testi-img .circle{
+  height: 360px;
+  width: 360px;
+  background-color: rgba(8, 223, 252, 0.145);
+  position: absolute;
+  border-radius: 50%;
+  left: 0;
+  bottom: 0;
+  transition: all .5s ease;
+}
+
+.testi-img .img-box-inner{
+  position: relative;
+  border-radius: 0 0 180px 180px;
+  overflow: hidden;
+}
+.testi-img .img-box-inner img{
+  max-width: 300px;
+}
+
+.testimonial-section .carousel-control-prev {
+  margin-right: 10px;
+}
+
+.testimonial-section .carousel-inner {
+  margin-bottom: 20px;
+}
+
+
+.testimonial-section .carousel-control-prev,
+.testimonial-section .carousel-control-next{
+  position: relative;
+  height: 35px;
+  width: 35px;
+  background-color: rgb(255, 0, 128);
+  display: inline-flex;
+  border-radius: 50%;
+}
+
+.testimonial-section .carousel-control-prev img,
+.testimonial-section .carousel-control-next img {
+  width: 30px;
+}
+.testi-item p {
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+}
+
+.testi-item h2, h4{
+  text-transform: capitalize;
+  color: rgb(255, 255, 255);
+}
+
+/* responsive */
+
+@media(max-width:991px){
+  .testi-img .img-box{
+    max-width: 300px;
+  }
+
+  /* .carousel-inner h2, h4, p{
+    margin-left: 25px;
+  } */
+
+  .testi-img .circle{
+    height: 300px;
+    width: 300px;
+  }
+
+  .testi-img .img-box-inner{
+    border-radius: 0 0 150px 150px;
+  }
+
+  .testi-img .img-box-inner img{
+    max-width: 230px;
+  }
+  
+}
+
+@media(max-width:767px){
+  .testi-img{
+    margin-bottom: 25px;
+  }
+}
+
+/* testimonial-section end*/
+
+/* ==============================================
+          Contacts css 
+=================================================*/
+
+.address-1.bg-info.d-flex.justify-content-start.mb-2,
+.address-2.bg-info.d-flex.justify-content-start.mb-2,
+.address-3.bg-info.d-flex.justify-content-start {
+  border-radius: 5px;
+}
+
+.icone a i {
+  border-radius: 5px;
+}
+
+i.m-2.p-2.bg-white.text-info.fas.fa-map-marker-alt {
+  height: 35px;
+  width: 35px;
+  padding: 10px 12px !important;
+}
+
+i.m-2.p-2.bg-white.text-info.far.fa-envelope {
+  width: 35px;
+  height: 35px;
+  padding: 9px 9px !important;
+}
+
+i.m-2.p-2.bg-white.text-info.fas.fa-mobile-alt {
+  width: 35px;
+  height: 35px;
+  padding: 10px 13px !important;
+}
+/* ==============================================
+          all done 
+=================================================*/
+textarea#floatingTextarea2 {
+  height: 120px;
+}
